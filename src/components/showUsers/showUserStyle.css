@@ -1,0 +1,20 @@
+.showUsers{
+    width: 90%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.showUsers-title{
+}
+
+.showUsers__data{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0 .8rem;
+}
+.showUsers__data-name{
+    margin-bottom: .2rem;
+}
+.showUsers__data-age{}
