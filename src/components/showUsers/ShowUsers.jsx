@@ -6,16 +6,16 @@ const ShowUsers = ({ datas }) => {
     return (
         <div className="showUsers">
             <h2 className="showUsers-title">Users</h2>
-            <Card>
-                {datas.map((data) => (
-                    <div className="showUsers__data" key={data.username}>
+            {datas.map((data) => (
+                <Card key={data.username}>
+                    <div className="showUsers__data">
                         <p className="showUsers__data-name">
                             Name: {data.username}
                         </p>
                         <p className="showUsers__data-age">Age: {data.age}</p>
                     </div>
-                ))}
-            </Card>
+                </Card>
+            ))}
         </div>
     );
 };

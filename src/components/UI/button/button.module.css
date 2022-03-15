@@ -3,8 +3,13 @@
     cursor: pointer;
     height: 2rem;
     border: 0;
+    background: #4f005f;
+    color: white;
+    padding: 2px 15px;
+    font-weight: 500;
 }
 
 .button:hover{
-    background: lightgray;
+    background: #360041;
+    
 }
